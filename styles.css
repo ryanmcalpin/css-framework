@@ -1,5 +1,9 @@
+body {
+  margin: 0; }
+
 .body {
-  text-align: center; }
+  text-align: center;
+  padding: 8px; }
 
 .right {
   float: right; }
