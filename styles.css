@@ -1,0 +1,45 @@
+body {
+  margin: 0; }
+
+.body {
+  text-align: center;
+  margin: 8px; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+button {
+  border-width: 1px;
+  border-radius: 4px;
+  padding: .25em .5em;
+  margin: 4px; }
+  button:focus {
+    outline: none; }
+  button:hover {
+    cursor: pointer;
+    background: lightgrey; }
+  button.butt-blue {
+    background: #618dff;
+    border-color: #618dff;
+    color: black; }
+    button.butt-blue:hover {
+      background: #4c7fff; }
+  button.butt-green {
+    background: #34ce34;
+    border-color: #34ce34;
+    color: black; }
+    button.butt-green:hover {
+      background: #2ec02e; }
+  button.sm {
+    font-size: 1em; }
+  button.md {
+    font-size: 1.25em; }
+  button.lg {
+    font-size: 1.5em; }
+  button.xl {
+    font-size: 1.75em; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,70 @@
+$blue: lighten(#477bff, 5%);
+$green: lighten(#2dbc2d, 5%);
+
+body {
+  margin: 0;
+}
+
+.body {
+  text-align: center;
+  margin: 8px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+button {
+  border-width: 1px;
+  border-radius: 4px;
+  padding: .25em .5em;
+  margin: 4px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: lightgrey;
+  }
+
+  &.butt {
+    &-blue {
+      background: $blue;
+      border-color: $blue;
+      color: black;
+      &:hover {
+        background: darken($blue, 4%);
+      }
+    }
+    &-green {
+      background: $green;
+      border-color: $green;
+      color: black;
+      &:hover {
+        background: darken($green, 4%);
+      }
+    }
+  }
+
+  &.sm {
+    font-size: 1em;
+  }
+
+  &.md {
+    font-size: 1.25em;
+  }
+
+  &.lg {
+    font-size: 1.5em;
+  }
+
+  &.xl {
+    font-size: 1.75em;
+  }
+}
