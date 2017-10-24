@@ -1,9 +1,5 @@
-body {
-  margin: 0; }
-
 .body {
-  text-align: center;
-  margin: 8px; }
+  text-align: center; }
 
 .right {
   float: right; }
@@ -15,24 +11,26 @@ button {
   border-width: 1px;
   border-radius: 4px;
   padding: .25em .5em;
-  margin: 4px; }
+  margin: 4px 0; }
   button:focus {
     outline: none; }
   button:hover {
     cursor: pointer;
     background: lightgrey; }
-  button.butt-blue {
+  button.blue {
     background: #618dff;
     border-color: #618dff;
     color: black; }
-    button.butt-blue:hover {
+    button.blue:hover {
       background: #4c7fff; }
-  button.butt-green {
+  button.green {
     background: #34ce34;
     border-color: #34ce34;
     color: black; }
-    button.butt-green:hover {
+    button.green:hover {
       background: #2ec02e; }
+  button.xs {
+    font-size: .75em; }
   button.sm {
     font-size: 1em; }
   button.md {
@@ -41,5 +39,9 @@ button {
     font-size: 1.5em; }
   button.xl {
     font-size: 1.75em; }
+  button.stretch {
+    width: 100%;
+    text-align: center;
+    max-width: 1000px; }
 
 /*# sourceMappingURL=styles.css.map */
